@@ -17,7 +17,7 @@ public class LookAtTarget : MonoBehaviour {
 	void Update () {
 		if (target)
 			transform.LookAt(target.transform);
-        if (Input.GetAxis("Mouse ScrollWheel") != 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") != 0f) //zoom in and zoom out feature
             Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView-(Input.GetAxis("Mouse ScrollWheel")*10), target.transform.localScale.x, 1000);
 	}
 }

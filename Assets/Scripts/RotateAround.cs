@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//script to make objects rotate around another object 
 public class RotateAround : MonoBehaviour {
 
 	public Transform target; // the object to rotate around

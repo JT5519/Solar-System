@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+//main menu button click events
 public class MainMenuControls : MonoBehaviour
 {
     public void onPlay()
